@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semangat Belajar</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f8ff;
+            font-family: Arial, sans-serif;
+            overflow: hidden; /* Menghindari scrollbar */
+        }
+        .marquee {
+            white-space: nowrap;
+            overflow: hidden;
+            box-sizing: border-box;
+            animation: marquee 10s linear infinite; /* Kecepatan dan arah */
+            font-size: 24px; /* Ukuran font */
+            color: #00bcd4; /* Warna biru muda */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Bayangan teks */
+        }
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+    </style>
+</head>
+<body>
+    <div class="marquee">
+        Semangat yaa belajarnyaa buatt ujian besokkkkk🫶
+    </div>
+    <p><a href="https://google.com" target="_blank">Buka Semangat Belajar</a></p>
+</body>
+</html>
